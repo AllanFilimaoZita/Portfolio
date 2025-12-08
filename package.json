@@ -1,6 +1,6 @@
 {
   "scripts": {
     "dev": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --minify"
+    "build": "npx @tailwindcss/cli -i ./src/index.css -o ./public/css/output.css --minify"
   }
 }
